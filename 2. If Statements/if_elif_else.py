@@ -179,7 +179,7 @@ requested_ingredients = []
 
 if requested_ingredients:
     for requested_ingredient in requested_ingredients:
-        print(f"\nAdding {requested_ingredient}")
+        print(f"Adding {requested_ingredient}")
     print("\nFinished making your pizza!")
 else:
     print("Are you sure you want only dough?")
