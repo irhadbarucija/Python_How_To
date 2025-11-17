@@ -63,11 +63,3 @@ while True:
 
     full_car = build_car(engine, model)
     print(f"\nYour car is {full_car}!")
-
-
-def make_album(artist_name, album_title, album_songs=None):
-    album = {'artist': artist_name, 'album': album_title}
-    return album
-
-new_album = make_album('Mona', 'Sumsirka')
-print(new_album)
